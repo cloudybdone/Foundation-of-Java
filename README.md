@@ -37,6 +37,32 @@ Some of the applications are listed below:-
  * **Big Data:** Hadoop MapReduce framework is written using Java.
  * **Scientific and Research Community:** To deal with huge amount of data.
 
+### Short History 
+
+Java is a programming language developed by **James Gosling** with other team members named **Mike Sheridan** and **Patrick Naughton** also called as **Green Team** in **1995** for **Sun Microsystems** for digital devices such as set-top boxes, televisions etc. Now, let us explore the language in detail.
+
+### Features
+
+**Simple:** Java has made life easier by removing all the complexities such as pointers, operator overloading as you see in C++ or any other programming language.
+
+**Portable:** This is platform independent which means that any application written on one platform can be easily ported to another platform.
+
+**Object-oriented:** Everything is considered to be an “object” which possess some state, behavior and all the operations are performed using these objects. 
+
+**Secured:** All the code is converted in **bytecode** after compilation, which is not readable by a human. and java does not use an explicit pointer and run the programs inside the sandbox to prevent any activities from untrusted sources. It enables to develop virus-free, tamper-free systems/applications.
+
+**Dynamic:** It has the ability to adapt to an evolving environment which supports dynamic memory allocation due to which memory wastage is reduced and performance of the application is increased.
+
+**Distributed:** This language provides a feature which helps to create distributed applications. Using Remote Method Invocation (RMI), a program can invoke a method of another program across a network and get the output. You can access files by calling the methods from any machine on the internet.
+
+**Robust:** Java has a strong memory management system. It helps in eliminating error as it checks the code during compile and runtime.
+
+**High Performance:** Java achieves high performance through the use of bytecode which can be easily translated into native machine code. With the use of **JIT (Just-In-Time) compilers**, it enables high performance.
+
+**Multithreaded:** Java supports multiple threads of execution (a.k.a., lightweight processes), including a set of synchronization primitives. This makes programming with threads much easier.
+
+### Why You Should Learn Java?
+
 
 
 
