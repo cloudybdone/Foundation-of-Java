@@ -93,6 +93,36 @@ Here are the reasons that will elaborate on why to learn Java:-
 
 * **High Demand:** Java Developers are one of the high paid developers out here in the IT industry, and this is because of the widespread dependency on the Java Programming language.
 
+###  Compiled vs Interpreted Language
+
+Every program is a set of instructions, whether it’s to add two numbers or send a request over the internet. **Compilers** and **Interpreters** take human-readable code and convert it to computer-readable machine code.
+
+In a compiled language, the target machine directly translates the program. In an interpreted language, the source code is not directly translated by the target machine. Instead, a different program, aka the interpreter, reads and executes the code.
+
+**Compiled Languages:**
+
+Compiled languages are converted directly into machine code that the processor can execute. As a result, they tend to be faster and more efficient to execute than interpreted languages. They also give the developer more control over hardware aspects, like memory management and CPU usage. Compiled languages need a “build” step – they need to be manually compiled first. You need to “rebuild” the program every time you need to make a change.
+
+Examples of pure compiled languages are **C**, **C++**, **Java**, **Erlang**, **Haskell**, **Rust**, and **Go**.
+
+**Interpreted Languages:**
+
+Interpreters run through a program line by line and execute each command. Interpreted languages were once significantly slower than compiled languages. But, with the development of **just-in-time(JIT)** compilation, that gap is shrinking. 
+
+Examples of common interpreted languages are **PHP**, **Ruby**, **Python**, **Perl** and **JavaScript**.
+
+### Interpreter vs Compier: How is an Interpreter different than a compiler?
+
+The table below will help you in understanding the differences between an Interpreter and a Compiler :-
+
+
+| Interpreter | Compiler |
+| :---:  | :---:  |
+| Translates Program Line by Line | Translates entire program together  |
+| Compile-time is Less but Execution is Slower  | Compile-time is More but Execution is Faster  |
+| Will not generate Intermediate Object Code  | Generates Intermediate Object Code  |
+| Program is Compiled until an Error is found  | Error is displayed at the end of Compilation  |
+| **Python**, **PHP**, **Perl**, **Ruby** use Interpreter  |  **C**, **C++**, **Scala**, **Java** use Compilers  |
 
 
 
