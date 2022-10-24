@@ -63,6 +63,36 @@ Java is a programming language developed by **James Gosling** with other team me
 
 ### Why You Should Learn Java?
 
+Here are the reasons that will elaborate on why to learn Java:-
+
+  * **Java is Easy to Learn:** Java is quite easy to learn and can be understood in a short span of time as it has a syntax similar to English. You can also follow Java Tutorials. This will guide you on how to get started with Java and make yourself proficient in it
+
+  * **Beginner Friendly and Competitive Edge:** The best part while you learn Java is its beginner-friendly nature. The syntax of Java matches a lot with its predecessors, C, C++, etc. Of course, Java has inherited its predecessors, but also, Java comes with some advanced features to help programmers in real-time.
+
+    Unlike its predecessors, Java comes with advanced memory management tools. Runtime Environment takes care of memory allocation, reallocation, and deallocation automatically via an in-built software tool called the Garbage collector.
+
+    The object-oriented programming nature of the language makes it more precise, readable, and the best in class when it comes to getting started with real-time projects, even at the beginner's stage.
+
+* **Code Portability and Versatility:** Java follows a fundamental principle that worked well for Java to date. The "Write Once, and Run Anywhere" principle. Now, Java uses a software tool that comes along with the Java download file. It is called the Java Virtual Machine (JVM).
+
+  The primary objective of JVM is to convert the code written in the user's language into machine level language (ByteCode), and then the interpreter will compile and execute the code. The same protocol is followed regardless of the type of the host operating system.
+
+  Next, the language's object-oriented nature makes Java-capable bind the data members and data manipulating methods together. Data binding makes the data to be more secure. Not just security, Java is also capable of working with various resources and working over the network.
+
+  Data binding and security features make Java a most versatile programming language.
+
+  Followed by platform independence and the versatile nature of Java, we have the open-source library support of Java.
+
+* **Java has an Abundant API:** Java has an abundant Application Programming Interface (API) that includes many Java classes, packages, interfaces, etc. This is useful for constructing applications without necessarily knowing their inside implementations. Java has mainly three types of API i.e. **Official Java core APIs**, **Optional official Java APIs**, and **Unofficial APIs**. These APIs overall are used for almost everything including networking, I/O, databases, media, XML parsing, speech synthesis, etc. 
+
+* **Wide Range of Powerfull Development Tools:** There are many Integrated development environments (IDEs) in Java that provide various facilities for software development to programmers. Powerful Java IDEs such as **Eclipse**, **NetBeans**, **IntelliJ IDEA**, etc. play a big role in the success of Java. These IDEs provide many facilities such as debugging, syntax highlighting, code completion, language support, automated refactoring, etc. that make coding in Java easier and faster. Java has created a base for the Android operating system and opted around 90% of fortune 500 companies to develop a lot of back-end applications. Also, it plays a great role in Apache Hadoop data processing, Amazon Web Services, Windows Azure, etc. 
+
+* **Java has Great Documentation Support:** The documentation support for Java is excellent using Javadoc which is the documentation generator for Java. It uses the Java source code to generate the API documentation in HTML format. So, Javadoc provides a great reference while coding in Java so that understanding the code is quite simple. 
+
+* **Java has Multiple Open Source Libraries:** Open-source libraries have resources that can be copied, studied, changed, shared, etc. There are multiple open source libraries in Java such as **JHipster**, **Maven**, **Google Guava**, **Apache Commons**, etc. that can be used to make Java development easier, cheaper and faster. 
+
+* **High Demand:** Java Developers are one of the high paid developers out here in the IT industry, and this is because of the widespread dependency on the Java Programming language.
+
 
 
 
