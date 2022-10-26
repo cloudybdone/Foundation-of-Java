@@ -9,7 +9,7 @@
 * Features
 * Why You Should Learn Java?
 * Compiled vs Interpreted Language
-* Components (JDK,JRE,JVM,Java & JIT Compiler)
+* Java Components (JDK,JRE,JVM,Java & JIT Compiler)
 * How Java is Platform Independent?
 * JVM Architecture
 
@@ -124,6 +124,20 @@ The table below will help you in understanding the differences between an Interp
 | Program is Compiled until an Error is found  | Error is displayed at the end of Compilation  |
 | **Python**, **PHP**, **Perl**, **Ruby** use Interpreter  |  **C**, **C++**, **Scala**, **Java** use Compilers  |
 
+### Java Components (JDK,JRE,JVM,Java & JIT Compiler)
+
+**Java Architecture** combines the process of compilation and interpretation. It explains the various processes involved whilst formulating a Java program. 
+
+**What is Java Architecture?**
+
+* In **Java**, there is a process of compilation and interpretation.
+* The code written in **Java**, is converted into byte codes which is done by the **Java Compiler**.
+* The byte codes, then are converted into machine code by the **JVM.**
+* The Machine code is executed directly by the machine.
+
+This diagram illustrates the internal working of a Java code, or precisely, Java Architecture!
+
+![Java Architecture](https://github.com/cloudybdone/Foundation-of-Java/blob/main/javaArchitecture.png)
 
 
 
