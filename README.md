@@ -164,6 +164,56 @@ Now, let me show you the JVM architecture. Here goes!
 
 ![JVM Architecture](https://github.com/cloudybdone/Foundation-of-Java/blob/main/JVM%20Architecture.png)
 
+**Explanation:**
 
+**Class Loader:** Class loader is a subsystem of JVM. It is used to load class files. Whenever we run the java program, class loader loads it first.
+
+**Class method area:** It is one of the Data Area in JVM, in which Class data will be stored. Static Variables, Static Blocks, Static Methods, Instance Methods are stored in this area.
+
+**Heap:** A heap is created when the JVM starts up. It may increase or decrease in size while the application runs.
+
+**Stack:** JVM stack is known as a thread stack. It is a data area in the JVM memory which is created for a single execution thread. The JVM stack of a thread is used by the thread to store various elements i.e.; local variables, partial results, and data for calling method and returns.
+
+**Native stack:** It subsumes all the native methods used in your application.
+
+**Execution Engine:**
+
+* JIT compiler
+* Garbage collector
+
+**JIT compiler:** The Just-In-Time (JIT) compiler is a part of the runtime environment. It helps in improving the performance of Java applications by compiling bytecodes to machine code at run time. The JIT compiler is enabled by default. When a method is compiled, the JVM calls the compiled code of that method directly. The JIT compiler compiles the bytecode of that method into machine code, compiling it “just in time” to run.
+
+**Garbage collector:** As the name explains that Garbage Collector means to collect the unused material. Well, in JVM this work is done by Garbage collection. It tracks each and every object available in the JVM heap space and removes unwanted ones.
+Garbage collector works in two simple steps known as Mark and Sweep:
+
+* Mark – it is where the garbage collector identifies which piece of memory is in use and which are not
+* Sweep – it removes objects identified during the “mark” phase.
+
+**Java Runtime Environment:**
+
+The **JRE** software builds a runtime environment in which Java programs can be executed. The JRE is the on-disk system that takes your Java code, combines it with the needed libraries, and starts the JVM to execute it. The JRE contains libraries and software needed by your Java programs to run. JRE is a part of JDK (which we will study later) but can be downloaded separately.
+
+**Java Development Kit:**
+
+The Java Development Kit **(JDK)** is a software development environment used to develop Java applications and applets. It contains JRE and several development tools, an interpreter/loader **(java)**, a compiler **(javac)**, an archiver **(jar)**, a documentation generator **(javadoc)** accompanied with another tool.
+
+![Java Arch](https://github.com/cloudybdone/Foundation-of-Java/blob/main/javaarch.png)
+
+JDK = JRE + Development Tool
+
+JRE = JVM + library classes
+
+
+The blue area shown in the diagram is JDK. Now, let me elaborate the development tools to you all.
+
+**java :** it is the launcher for all the java applications.
+
+**javac :** complier of the java programming languages.
+
+**javadoc:** it is the API documentation generator.
+
+**jar:** creates and manage all the JAR files.
+
+Moving ahead with Java architecture, let us understand how Java platform is independent?
 
 
