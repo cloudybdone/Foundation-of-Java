@@ -216,4 +216,39 @@ The blue area shown in the diagram is JDK. Now, let me elaborate the development
 
 Moving ahead with Java architecture, let us understand how Java platform is independent?
 
+**How is Java platform independent?**
+
+When is any programming language called as platform-independent? Well, if and only if it can run on all available operating systems with respect to its development and compilation.
+Now, Java is platform-independent just because of the bytecode. Let me tell you what exactly is a bytecode?
+
+ In simple terms,
+
+Bytecode is a code of the JVM which is machine-understandable.
+Bytecode execution in Java proves it is a platform-independent language.
+
+Here, I will show you the steps involved in the process of java bytecode execution:-
+
+![bytecodeexecprocess](https://github.com/cloudybdone/Foundation-of-Java/blob/main/javabytecodeexecprocess.png)
+
+Below is the explanation of the steps involved:-
+
+***sample.java → javac (sample. class) → JVM(sample.obj) → final output***
+
+First source code is used by java compiler and is converted in .class file. The class file code is in byte code form and that class file is used by JVM to convert into an object file. After that, you can see the final output on your screen.
+
+**JIT in Java**
+
+**Just In Time** compiler commonly known as **JIT**, is basically responsible for performance optimization of java based applications at run time. The performance of an application is dependent on a compiler.
+
+Here is a simple diagram showing you the internal process going on:-
+
+![JIT Process](https://github.com/cloudybdone/Foundation-of-Java/blob/main/JIT_Process.png)
+
+The JIT compiler compiles the byte code of the method into machine code, compiling it “Just In Time” to run. When a method is compiled, the JVM calls the compiled code of that method directly.
+Let’s dive deeper:
+
+The byte code has to be interpreted or compiled to proper machine instructions depending on the instruction set provided. Also, these can be directly executed if the instruction architecture is byte code based. Interpreting the byte code affects the speed of execution.
+In order to improve performance, JIT compilers interact with the Java Virtual Machine (JVM) at run time and compile suitable bytecode sequences into native machine code (as shown in the diagram). While using a JIT compiler, the hardware is able to execute the native code, as compared to having the JVM interpret the same sequence of bytecode repeatedly and incurring overhead for the translation process.
+
+
 
