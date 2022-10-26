@@ -139,6 +139,31 @@ This diagram illustrates the internal working of a Java code, or precisely, Java
 
 ![Java Architecture](https://github.com/cloudybdone/Foundation-of-Java/blob/main/javaArchitecture.png)
 
+Now, let us dig a little deeper in java architecture and talk about various components of Java.
+
+**Components of Java Architecture:**
+
+There are three main components of Java language: **JVM**, **JRE**, and **JDK**.
+
+Java Virtual Machine, Java Runtime Environment and Java Development Kit respectively.
+
+Let me elaborate each one of them one by one:
+
+**Java Virtual Machine(JVM):**
+
+Ever heard about **WORA? (Write once Run Anywhere)**.  Well, Java applications are called WORA because of their ability to run a code on any platform. This is done only because of JVM. The JVM is a Java platform component that provides an environment for executing Java programs. JVM interprets the bytecode into machine code which is executed in the machine in which the Java program runs.
+
+So, in a nutshell, JVM performs the following functions:
+
+* Loads the code
+* Verifies the code
+* Executes the code
+* Provides runtime environment
+
+Now, let me show you the JVM architecture. Here goes!
+
+![JVM Architecture](https://github.com/cloudybdone/Foundation-of-Java/blob/main/JVM%20Architecture.png)
+
 
 
 
