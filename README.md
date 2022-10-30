@@ -14,7 +14,7 @@
 * JVM Architecture
 
 ### What is Java?
- Java is a cross-platform object-oriented programming language that was released by Sun Microsystems in the year 1995. It is similar to C++, but with advanced and simplified features. This language is free to access and can run on all platforms.
+ Java is a cross-platform [object-oriented](https://en.wikipedia.org/wiki/Object-oriented_programming) programming language that was released by Sun Microsystems in the year 1995. It is similar to C++, but with advanced and simplified features. This language is free to access and can run on all platforms.
 
  Java is: –
 
@@ -49,7 +49,7 @@ Java is a programming language developed by **James Gosling** with other team me
 
 **Object-oriented:** Everything is considered to be an “object” which possess some state, behavior and all the operations are performed using these objects. 
 
-**Secured:** All the code is converted in **bytecode** after compilation, which is not readable by a human. and java does not use an explicit pointer and run the programs inside the sandbox to prevent any activities from untrusted sources. It enables to develop virus-free, tamper-free systems/applications.
+**Secured:** All the code is converted in [bytecode](https://en.wikipedia.org/wiki/Bytecode) after compilation, which is not readable by a human. and java does not use an explicit pointer and run the programs inside the sandbox to prevent any activities from untrusted sources. It enables to develop virus-free, tamper-free systems/applications.
 
 **Dynamic:** It has the ability to adapt to an evolving environment which supports dynamic memory allocation due to which memory wastage is reduced and performance of the application is increased.
 
@@ -83,7 +83,7 @@ Here are the reasons that will elaborate on why to learn Java:-
 
   Followed by platform independence and the versatile nature of Java, we have the open-source library support of Java.
 
-* **Java has an Abundant API:** Java has an abundant Application Programming Interface (API) that includes many Java classes, packages, interfaces, etc. This is useful for constructing applications without necessarily knowing their inside implementations. Java has mainly three types of API i.e. **Official Java core APIs**, **Optional official Java APIs**, and **Unofficial APIs**. These APIs overall are used for almost everything including networking, I/O, databases, media, XML parsing, speech synthesis, etc. 
+* **Java has an Abundant API:** Java has an abundant Application Programming Interface([API](https://en.wikipedia.org/wiki/API)) that includes many Java classes, packages, interfaces, etc. This is useful for constructing applications without necessarily knowing their inside implementations. Java has mainly three types of API i.e. **Official Java core APIs**, **Optional official Java APIs**, and **Unofficial APIs**. These APIs overall are used for almost everything including networking, I/O, databases, media, XML parsing, speech synthesis, etc. 
 
 * **Wide Range of Powerfull Development Tools:** There are many Integrated development environments (IDEs) in Java that provide various facilities for software development to programmers. Powerful Java IDEs such as **Eclipse**, **NetBeans**, **IntelliJ IDEA**, etc. play a big role in the success of Java. These IDEs provide many facilities such as debugging, syntax highlighting, code completion, language support, automated refactoring, etc. that make coding in Java easier and faster. Java has created a base for the Android operating system and opted around 90% of fortune 500 companies to develop a lot of back-end applications. Also, it plays a great role in Apache Hadoop data processing, Amazon Web Services, Windows Azure, etc. 
 
@@ -131,7 +131,7 @@ The table below will help you in understanding the differences between an Interp
 **What is Java Architecture?**
 
 * In **Java**, there is a process of compilation and interpretation.
-* The code written in **Java**, is converted into byte codes which is done by the **Java Compiler**.
+* The code written in **Java**, is converted into byte codes which is done by the [Java Compiler](https://en.wikipedia.org/wiki/Java_compiler).
 * The byte codes, then are converted into machine code by the **JVM.**
 * The Machine code is executed directly by the machine.
 
